@@ -1,0 +1,21 @@
+{
+    "name": "Dynamic Mojave",
+    "description": "Dynamic mojave background for the new tab page.",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "permissions": [
+        "storage",
+        "webRequest"
+    ],
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "browser_action": {
+        "default_icon": "icons/custom-background128.png"
+    },
+    "icons": {
+        "16": "icons/custom-background16.png",
+        "48": "icons/custom-background48.png",
+        "128": "icons/custom-background128.png"
+    }
+}

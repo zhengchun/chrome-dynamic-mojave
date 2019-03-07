@@ -1,0 +1,27 @@
+body{
+    font-size: 0.875rem;
+}
+
+#fullscreen{
+    position: fixed;
+    z-index: -99999999;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+    justify-content: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+}
+
+.copyright-link{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-size: 11px;
+    color: #fff;
+    font-weight: 400;
+}
